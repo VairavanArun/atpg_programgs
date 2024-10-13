@@ -1,0 +1,19 @@
+INPUT(a)
+INPUT(b)
+INPUT(c)
+INPUT(d)
+OUTPUT(k)
+OUTPUT(l)
+OUTPUT(m)
+
+e = AND(a, b, c, d)
+f = NAND(a, b, c, d)
+k = OR(e, f)
+
+g = OR(a, b, c, d)
+h = NOR(a, b, c, d)
+l = OR(g, h)
+
+i = XOR(a, b, c, d)
+j = XNOR(a, b, c, d)
+m = OR(i, j)
