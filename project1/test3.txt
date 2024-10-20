@@ -1,0 +1,18 @@
+INPUT(A)
+INPUT(B)
+INPUT(C)
+INPUT(D)
+INPUT(E)
+INPUT(F)
+
+OUTPUT(S)
+OUTPUT(T)
+
+g = AND(A, B)
+n = NOT(C)
+o = NOT(D)
+k = NOR(E, F)
+m = OR(g, C)
+p = NAND(m, n)
+S = NOR(p, g)
+T = AND(p, o, k)
